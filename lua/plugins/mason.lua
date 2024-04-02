@@ -6,7 +6,6 @@ return {
         "css-lsp",
         "vue-language-server",
         "clangd",
-        "cmake",
         "cmakelint",
         "delve",
         "docker_compose_language_service",
