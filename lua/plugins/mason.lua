@@ -3,29 +3,54 @@ return {
     "williamboman/mason.nvim",
     opts = {
       ensure_installed = {
+        -- Lua
+        "lua-language-server",
+        "stylua",
+
+        -- Web Development
         "css-lsp",
+        "html-lsp",
+        "json-lsp",
+        "eslint-lsp",
+        "typescript-language-server",
+        "tailwindcss-language-server",
         "vue-language-server",
+
+        -- Markdown
+        "marksman",
+        "markdownlint",
+
+        -- C/C++
         "clangd",
+        "cmakelang",
         "cmakelint",
+        "cmake-language-server",
+
+        -- Go
         "delve",
-        "dockerls",
         "gofumpt",
         "goimports",
         "gopls",
-        "eslint",
-        "html",
-        "jsonls",
-        "tsserver",
-        "marksman",
-        "js-debug-adapter",
-        "lua_ls",
-        "markdownlint",
-        "neocmakelsp",
+
+        -- Docker
+        "dockerfile-language-server",
+        "docker-compose-language-service",
+        "hadolint",
+
+        -- Shell
         "shfmt",
-        "stylua",
-        "tailwindcss",
-        "volar",
-        "yamlls",
+
+        -- YAML
+        "yaml-language-server",
+      },
+    },
+    dap = {
+      setup = {
+        -- Go
+        "delve",
+
+        -- JavaScript
+        "js-debug-adapter",
       },
     },
   },
