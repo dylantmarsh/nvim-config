@@ -8,7 +8,6 @@ return {
         "clangd",
         "cmakelint",
         "delve",
-        "docker_compose_language_service",
         "cssls",
         "dockerls",
         "gofumpt",
