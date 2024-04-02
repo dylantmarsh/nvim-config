@@ -8,7 +8,6 @@ return {
         "clangd",
         "cmakelint",
         "delve",
-        "cssls",
         "dockerls",
         "gofumpt",
         "goimports",
