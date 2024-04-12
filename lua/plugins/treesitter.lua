@@ -20,6 +20,15 @@ return {
       "typescript",
       "vue",
       "yaml",
+    },
+    incremental_selection = {
+      enable = true,
+      keymaps = {
+        init_selection = "<leader>v",
+        node_incremental = "<leader>v",
+        scope_incremental = false,
+        node_decremental = "<leader>V",
+      }
     }
   }
 }
