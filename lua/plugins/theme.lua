@@ -5,8 +5,11 @@ return {
       style = "night",
       shade_terminal = true,
       transparent = true,
+      terminal_colors = true,
       styles = {
+        comments = { italic = true },
         sidebars = "transparent",
+        keywords = { italic = true },
       },
       on_colors = function(colors)
         colors.orange = "#ff8352"
